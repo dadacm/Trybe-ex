@@ -15,3 +15,9 @@ console.log (multiplicacao);
 // modulo
 let modulo = a % b;
 console.log(modulo)
+if(a > b){
+    console.log('o', a, 'é maior que o', b);
+}
+else{
+    console.log('o', b, 'é maior que o', a);
+}
