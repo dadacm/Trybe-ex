@@ -22,12 +22,21 @@ console.log(modulo)
 // else{
     // console.log('o', b, 'é maior que o', a);
 // }
-if(a>b & a>c){
-    console.log (a, 'é o maior numero');
+// if(a>b & a>c){
+    // console.log (a, 'é o maior numero');
+// }
+// else if (b > a & b>c){
+    // console.log (b, 'é o maior numero');
+// }
+// else{
+    // console.log (c, 'é o maior numero')
+// }
+if(a > 0) {
+    console.log('Positive');
 }
-else if (b > a & b>c){
-    console.log (b, 'é o maior numero');
+else if (a < 0){
+    console.log('negative');
 }
 else{
-    console.log (c, 'é o maior numero')
+    console.log ('0')
 }
